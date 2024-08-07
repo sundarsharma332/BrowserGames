@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Sections</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <button class="nav-button selected" onclick="showSection('projects')">Projects</button>
+        <button class="nav-button" onclick="showSection('about')">About</button>
+        <button class="nav-button" onclick="showSection('github')">Github</button>
+        <button class="nav-button" onclick="showSection('faqs')">FAQ's</button>
+        <button class="nav-button" onclick="showSection('support')">Support</button>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Projects</h2>
+        <div class="tile">Project 1</div>
+        <div class="tile">Project 2</div>
+        <div class="tile">Project 3</div>
+        <div class="tile">Project 4</div>
+    </div>
+
+    <div class="section" id="about" style="display:none;">
+        <h2>About</h2>
+        <p>This is the about section content.</p>
+    </div>
+
+    <div class="section" id="github" style="display:none;">
+        <h2>Github</h2>
+        <p>Link to Github profile: <a href="https://github.com/sundarsharma" target="_blank">Github</a></p>
+    </div>
+
+    <div class="section" id="faqs" style="display:none;">
+        <h2>FAQ's</h2>
+        <div class="accordion">
+            <button class="accordion-button">Question 1</button>
+            <div class="accordion-content">
+                <p>Answer to question 1.</p>
+            </div>
+            <button class="accordion-button">Question 2</button>
+            <div class="accordion-content">
+                <p>Answer to question 2.</p>
+            </div>
+            <button class="accordion-button">Question 3</button>
+            <div class="accordion-content">
+                <p>Answer to question 3.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="support" style="display:none;">
+        <h2>Support</h2>
+        <div class="support-form">
+            <input type="text" id="supportInput" placeholder="Enter your query">
+            <button class="send-button" onclick="sendSupport()">Send</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

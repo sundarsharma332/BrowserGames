@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+.nav-button:hover {
+    background-color: #ddd;
+}
+
+.nav-button.selected {
+    background-color: #007BFF;
+    color: white;
+}
+
+.section {
+    margin-top: 80px;
+    /* to account for fixed nav-bar */
+    padding: 20px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.tile {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.accordion-button:hover {
+    background-color: #0056b3;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.support-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-form input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.send-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
