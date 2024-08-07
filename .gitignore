@@ -1,0 +1,7 @@
+# History directory (VS Code Extension)
+.history/
+
+
+# Editor directories and files
+.vscode/
+.idea/
