@@ -32,16 +32,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Usage
 1. **Start the Game**: Upon loading the game, you will see a popup to start the game. You can select the timer duration and toggle between light and dark themes.
-![Start the Game](image.png)
+![Start the Game](assets/image.png)
 
 2. **Start Game in Light Mode**: Click on the "Start Game" button to begin. Colorful balls will appear randomly on the screen.
-![Start Game Light Mode](image-1.png)
+![Start Game Light Mode](assets/image-1.png)
 
 3. **Start Game in Dark Mode**: Toggle the dark mode checkbox before starting the game.
-![Start Game Dark Mode](image-2.png)
+![Start Game Dark Mode](assets/image-2.png)
 
 4. **Game Score**: Click on the balls as quickly as possible. The best reflex time will be tracked and displayed. When the timer ends, you will see a game over popup with your best reflex time and a log of all your reflex times.
-![Game Score](image-3.png)
+![Game Score](assets/image-3.png)
 
 ### Files
 - `index.html`: The main HTML file that contains the structure of the game.
@@ -63,6 +63,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [Font Awesome](https://fontawesome.com/)
 
 ### Contact
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Your Name - [sundarsharama469@gmail.com](mailto:your.email@example.com)
 
-Project Link: [https://github.com/yourusername/reflex-checker-game](https://github.com/yourusername/reflex-checker-game)
+Project Link: [https://github.com/sundarsharma332/BrowserGames/tree/main/reflex-checker](https://github.com/yourusername/reflex-checker-game)
